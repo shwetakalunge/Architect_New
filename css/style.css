@@ -349,7 +349,9 @@ p {
     border: none;
 
 }
-
+.p_contactform{
+    font-size: 20px;color: #333333;
+}
 .Image_btn4 {
     padding: 20px 20px 20px 20px;
     width: 30%;
@@ -362,8 +364,6 @@ p {
     color: #FFFFFF;
     background: #333333;
     height: auto;
-
-
 }
 
 /*-----------------------------------------------------------------------------------*/
