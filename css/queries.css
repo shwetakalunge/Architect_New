@@ -1,18 +1,145 @@
 /*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
-@media only screen and (max-width:1200px) {
-    
-}
+@media only screen and (max-width:1200px) {}
 
 /*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
 @media only screen and (max-width:1023px) {
     .container {
-     width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
 
     }
-    .row{
-        width: 100%;
-        
+
+    .row {
+        display: block;
+
     }
+
+    .p_header {
+        width: 30%;
+
+    }
+
+    .Hero_image {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .image1_box {
+        width: 70%;
+    }
+
+    .image2_box {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background-color: beige;
+
+    }
+
+    .Subimage1,
+    .Subimage3 {
+        padding: 5px;
+        width: 90%;
+        margin: auto
+    }
+
+    .Subimage2 {
+        width: 20%;
+        padding: 10px
+    }
+
+    .image2_box p {
+        font-size: 12px;
+        line-height: 25px;
+        word-spacing: 1px;
+        width: 90%;
+
+    }
+
+    .Third_Section {
+        background-color: white;
+        margin-top: 55px;
+
+    }
+
+    .originalLogo {
+        width: 50px;
+        margin-left: 25px;
+
+    }
+
+    footer {
+        display: none
+    }
+
+    .Third_Section {
+        background-color: white;
+        margin-top: 35px;
+
+    }
+
+    .main_div {
+        display: flex
+    }
+
+    .image3_box {
+        display: flex;
+        width: 50%;
+        padding: 20px
+    }
+
+    .image4_box {
+        display: flex;
+        width: 50%;
+        padding: 20px;
+
+    }
+
+    .ThirdSec_span1 {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .ThirdSec_span2 {
+        width: 100%;
+        padding: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .image_1,
+    .image_2 {
+        width: 20%;
+    }
+
+   .Contact_Form  {
+        width: 100%;
+        margin: auto;
+
+    }
+
+ 
+}
+/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:767px) {
+      .image_1,
+    .image_2 {
+        width: 30%;
+    }
+       .image2_box p {
+        font-size: 12px;
+        line-height: 25px;
+        word-spacing: 1px;
+        width: 100%;
+
+    }
+    .contact_formImage {
+    width: 100%;
+    height: 200px
+}
+
 }

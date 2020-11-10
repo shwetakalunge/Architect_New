@@ -148,7 +148,10 @@ h3 {
 
 .image2_box {
     width: 60%;
-    height: auto
+    height: auto;
+     margin: auto;
+    padding: 20px;
+    background-color: beige;
 }
 
 .image2_box h4 {
@@ -191,9 +194,7 @@ h3 {
 
 
 .image2_box {
-    margin: auto;
-    padding: 20px;
-    background-color: beige;
+   
 
 }
 
@@ -250,6 +251,7 @@ h5 {
 
 .Grid_Image img {
     display: block;
+    
 
 }
 
@@ -269,15 +271,17 @@ h5 {
 
 .grid_Row1,
 .grid_Row2 {
-    display: inline-flex;
-
+    display: flex;
+ width: 100%;
 }
 
 .grid_image1,
 .grid_image2,
 .grid_image3,
 .grid_image4,
-.grid_image5 {}
+.grid_image5 {
+  
+}
 
 /*.grid_image2 {
     width: 550px
@@ -439,21 +443,3 @@ footer text:before {
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------*/
-.section_New {
-    margin-top: 30px;
-    background-color: azure
-}
-
-.New_Image {
-    width: 100%;
-    margin: auto;
-}
-
-.New_box1 {
-    width: 60%;
-}
-
-.New_box2 {
-    width: 40%;
-    margin: auto
-}
