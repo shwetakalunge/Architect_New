@@ -29,7 +29,7 @@ body {
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
-    background-color: powderblue;
+    background-color: white;
     margin: auto
 }
 
@@ -152,7 +152,7 @@ h3 {
 /*----------------------------------------------------------------------*/
 .Second_row {
     margin-top: 30px;
-    background: pink;
+ 
     margin: auto
 }
 
@@ -165,7 +165,6 @@ h3 {
     height: auto;
      margin: auto;
     padding: 20px;
-    background-color: beige;
 }
 
 .image2_box h4 {
@@ -188,7 +187,7 @@ h3 {
 }
 
 .image2_box p {
-    font-size: 12px;
+    font-size: 20px;
     line-height: 25px;
     word-spacing: 1px;
     margin: auto;
@@ -370,7 +369,7 @@ p {
 
 
 /*-----------------------------------------------------------------------------------------------*/
-.originalLogo {
+/*.originalLogo {
     width: 110px;
     margin-left: 25px;
 
@@ -379,20 +378,16 @@ p {
 footer {
     background: #2C2C2C;
     margin-top: 25px;
-
-
 }
 
 .footer-nav li {
     list-style: none;
     padding: 10px;
-
 }
 
 .footer-nav li a {
     color: white;
     text-decoration: none;
-
 }
 
 .footer-list h6 {
@@ -411,7 +406,6 @@ footer h6 {
     word-spacing: 5px;
     line-height: 2px;
     flex-basis: 100%;
-
 }
 
 .footer-icons h6 {
@@ -452,6 +446,6 @@ footer text {
 footer text:before {
     content: ' \00A9';
 
-}
+}*/
 
 /*-------------------------------------------------------------------------------------------------------------------------*/
