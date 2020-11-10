@@ -44,7 +44,20 @@ body {
     filter: invert(100%);
     margin-top: 30px
 }
+/*-------------------------------------------------------------------------------------------------------*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none
+  
+}
 
+.mobile-nav-icon i{
+    font-size: 25px;
+    color: black;
+}
+/*-------------------------------------------------------------------------------------------------------*/
 nav {
     flex: 1;
     text-align: right;
@@ -291,15 +304,13 @@ h5 {
 }*/
 .Image_btn3 {
     padding: 20px 20px 20px 20px;
-    background: aqua;
     width: 150px;
     text-align: center;
     border: 1px solid grey;
     font-size: 15px;
     text-decoration: none;
-    color: black;
-    float: right;
     color: #FFFFFF;
+    float: right;
     background: #333333;
 
 }
